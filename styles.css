@@ -86,11 +86,20 @@ nav .profile-photo img {
     color: white;
 }
 
+.intro-section h1 {
+    font-size: 2.5rem;
+}
+
+.intro-section p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
 /* Features Section */
 .features-section {
     padding: 2rem;
-    background-color: white;
-    color: #333;
+    background-color: rgb(3, 26, 47);
+    color: #fdfcfc;
 }
 
 .feature-grid {
@@ -104,17 +113,74 @@ nav .profile-photo img {
     object-fit: cover;
 }
 
+.feature h3 {
+    font-size: 1.5rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
 /* About Section */
 .about-section {
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #112232;
     text-align: center;
+    color: white;
 }
 
 footer {
-    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.979);
     color: white;
     text-align: center;
     padding: 1rem;
     margin-top: auto;
+}
+
+/* --- Media Queries --- */
+@media (max-width: 768px) {
+    /* Adjust header for smaller screens */
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-button {
+        margin-top: 1rem;
+    }
+
+    .intro-section h1 {
+        font-size: 2rem;
+    }
+
+    .intro-section p {
+        font-size: 1rem;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-section {
+        padding: 0 1rem;
+    }
+
+    .intro-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro-section p {
+        font-size: 0.9rem;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
 }
