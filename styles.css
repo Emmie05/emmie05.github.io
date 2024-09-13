@@ -26,6 +26,13 @@ nav {
     align-items: center;
 }
 
+.logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -78,6 +85,7 @@ nav {
 
 .feature img {
     width: 100%;
+    object-fit: cover;
 }
 
 /* About Section */
