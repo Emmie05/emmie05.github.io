@@ -33,7 +33,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
 }
 
 nav .profile-photo img {
@@ -93,6 +92,7 @@ nav .profile-photo img {
     text-align: center;
     height: 80vh;
     color: white;
+    margin: auto;
 }
 
 .intro-section h1 {
@@ -139,15 +139,24 @@ nav .profile-photo img {
     color: white;
 }
 
+.about-section p.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    font-weight: bold;
+}
+
 .social-links {
     display: flex;
     gap: 15px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5pxpx;
 }
 
 .social-links a {
-    color: #ffffff; 
+    color: #b0ffe5; 
     font-size: 24px;
     transition: color 0.3s ease;
 }
