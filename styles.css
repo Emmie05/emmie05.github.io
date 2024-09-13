@@ -24,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 nav .profile-photo img {
@@ -45,7 +46,6 @@ nav .profile-photo img {
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-weight: 500;
     font-weight: bold;
     transition: color 0.3s;
 }
