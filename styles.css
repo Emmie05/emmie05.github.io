@@ -46,6 +46,12 @@ nav .profile-photo img {
     text-decoration: none;
     color: white;
     font-weight: 500;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #006c19;
 }
 
 .cta-button {
@@ -53,11 +59,21 @@ nav .profile-photo img {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
+    transition: all ease 0.3s;
 }
 
 .cta-button a {
+    font-weight: bold;
     color: white;
     text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #0a6b1f;
+}
+
+.cta-button:active {
+    transform: scale(0.95);
 }
 
 /* Intro Section */
