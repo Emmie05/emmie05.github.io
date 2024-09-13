@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background: url('../assets/images/background.jpg') no-repeat center center/cover;
