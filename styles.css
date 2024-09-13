@@ -1,0 +1,158 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Intro Section */
+.intro-section {
+    background-image: url('your_cover_image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro-content h1 {
+    font-size: 3em;
+}
+
+.intro-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.intro-content button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.intro-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
+.features-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature img {
+    width: 200px;
+    height: auto;
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.about-section ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.about-section ul li {
+    margin: 0 10px;
+}
+
+.about-section ul li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.about-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.repo-link {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    width: 200px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.repo-link:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
