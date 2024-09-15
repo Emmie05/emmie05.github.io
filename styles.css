@@ -5,14 +5,6 @@
     box-sizing: border-box;
 }
 
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.962);
-} */
-
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -96,8 +88,6 @@ nav .profile-photo img {
     text-align: center;
     height: 80vh;
     color: white;
-    /* margin: auto;
-    padding: 90px; */
 }
 
 .intro-text {
