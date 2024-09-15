@@ -112,6 +112,11 @@ nav .profile-photo img {
     color: #fdfcfc;
 }
 
+.features-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .feature-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -138,6 +143,10 @@ nav .profile-photo img {
     background-color: #112232;
     text-align: center;
     color: white;
+}
+
+.about-section h2 {
+    margin-bottom: 1rem;
 }
 
 .about-section p.social {
