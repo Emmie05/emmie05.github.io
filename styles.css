@@ -96,8 +96,14 @@ nav .profile-photo img {
     text-align: center;
     height: 80vh;
     color: white;
-    margin: auto;
-    padding: 90px;
+    /* margin: auto;
+    padding: 90px; */
+}
+
+.intro-text {
+    margin-top: auto;
+    padding: 100px;
+
 }
 
 .intro-section h1 {
