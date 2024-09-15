@@ -8,20 +8,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-window.onscroll = function () {
-    stickyNavbar();
-};
+// window.onscroll = function () {
+//     stickyNavbar();
+// };
 
-const navbar = document.querySelector('nav');
-const sticky = navbar.offsetTop;
+// const navbar = document.querySelector('nav');
+// const sticky = navbar.offsetTop;
 
-function stickyNavbar() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add('sticky');
-    } else {
-        navbar.classList.remove('sticky');
-    }
-}
+// function stickyNavbar() {
+//     if (window.pageYOffset >= sticky) {
+//         navbar.classList.add('sticky');
+//     } else {
+//         navbar.classList.remove('sticky');
+//     }
+// }
 
 const backToTopButton = document.getElementById('backToTop');
 

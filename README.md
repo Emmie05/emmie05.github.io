@@ -1,4 +1,4 @@
-# Portfolio Project
+# Portfolio Project Landing Page
 
 Welcome to my portfolio project! This web application showcases a toolkit with two essential tools: a GPA Calculator and a Resistor Color Code Generator. It's designed to be user-friendly and visually appealing.
 
